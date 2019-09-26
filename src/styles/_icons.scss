@@ -1,0 +1,10 @@
+@import "icon-mixin";
+
+.icon-test {
+  @include sprite($icon-fb);
+}
+
+.icon-test-retina {
+  @include retina-sprite($icon-fb-group);
+}
+

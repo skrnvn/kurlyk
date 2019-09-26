@@ -1,0 +1,7 @@
+# IDE
+.idea/
+
+dist/
+src/styles/_icon-mixin.scss
+
+node_modules/
