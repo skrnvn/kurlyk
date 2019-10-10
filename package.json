@@ -2,7 +2,8 @@
   "name": "example-project",
   "version": "1.0.0",
   "scripts": {
-    "build": "NODE_ENV=live gulp build"
+    "build": "NODE_ENV=live gulp build",
+    "gulp": "./node_modules/.bin/gulp"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",

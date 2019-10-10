@@ -1,1 +1,0 @@
-# example-gulp-4

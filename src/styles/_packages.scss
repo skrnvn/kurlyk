@@ -1,0 +1,31 @@
+.discount-counter {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+    &__item {
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+
+        h4 {
+            font-size: 36px;
+        }
+
+        &--days {
+            color: #fbad03;
+        }
+
+        &--hours {
+            color: #ef6f6c;
+        }
+
+        &--minutes {
+            color: #28c190;
+        }
+
+        &--seconds {
+            color: #333333;
+        }
+    }
+}
