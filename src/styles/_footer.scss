@@ -1,0 +1,113 @@
+.contacts {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-contact {
+        color: #bababa;
+        font-size: 14px;
+        font-weight: 400;
+
+        &__item {
+            padding: 13px 0;
+        }
+
+        .social-links {
+            padding-top: 40px;
+
+            &__item {
+                display: inline-block;
+            }    
+
+            &__link {
+                padding: 15px;
+                background-repeat: no-repeat;
+
+                &--facebook {
+                    background-image: url(../img/icons/facebook-icon.png);
+                }
+
+                &--pinterest {
+                    background-image: url(../img/icons/pinterest-icon.png);
+                }
+
+                &--instagram {
+                    background-image: url(../img/icons/instagam-icon.png);
+                }
+
+                &--twitter {
+                    background-image: url(../img/icons/twitter-icon.png);
+                }
+                
+                &--google {
+                    background-image: url(../img/icons/google-icon.png);
+                }
+            }
+        }
+    }
+
+    .footer-support {
+
+        &__link {
+            display: block;
+            padding: 15px 0;
+            color: #bababa;
+
+            &:hover {
+                color: #ffc001;
+            }
+        }
+    }
+
+    .footer-location {
+
+        &__link {
+            display: block;
+            padding: 15px 0;
+            color: #bababa;
+
+            &:hover {
+                color: #ffc001;
+            }
+        }
+    }
+
+    .footer-menu {
+
+        &__link {
+            display: block;
+            padding: 15px 0;
+            color: #bababa;
+
+            &:hover {
+                color: #ffc001;
+            }
+        }
+    }
+}
+
+.bottom {
+    border-top: 1px solid #ffffff23;
+    padding: 50px 0 75px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #ffffffab;
+
+    .bottom-menu {
+        
+        &__item {
+            display: inline-block;
+            padding: 0 25px;            
+            font-weight: 400;
+            letter-spacing: 0.26px;
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+
+        &__link {
+            color: #bababa;
+        }
+    }
+}

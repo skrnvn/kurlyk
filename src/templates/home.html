@@ -1,0 +1,97 @@
+<header class="home">
+    <div class="container nav">
+        <div>
+            <a class="nav__logo logo" href="#"></a>
+        </div>
+        <ul class="nav-menu menu">
+            <li class="nav-menu__item">
+                <a class="nav-menu__link" href="#">Home</a>
+            </li>
+            <li class="nav-menu__item">
+                <a class="nav-menu__link" href="#">Tours</a>
+            </li>
+            <li class="nav-menu__item">
+                <a class="nav-menu__link" href="#">Packages</a>
+            </li>
+            <li class="nav-menu__item">
+                <a class="nav-menu__link" href="#">Blog</a>
+            </li>
+        </ul>
+    </div>
+    <div class="container section-description section-description--home">
+            <div class="section-description__phone">
+                +91 254 587 485
+            </div>
+            <h1 class="section-description__title section-description__title--home">
+                Book a Ticket & Just Leave!
+            </h1>
+            <p class="section-description__text section-description__text--home">
+                Travel is the movement of people between relatively distant geographical locations,<br> 
+                and can involve travel by foot,bicycle, automobile, train, boat, bus.
+            </p>
+            <button class="get-button get-button--home">
+                ➜ Get ticket
+            </button>
+    </div>
+    <div class="container searchform-home">
+        <!-- Tab links -->
+        <div class="tab">
+            <button class="tablinks" data-tab-name="#Hotel" onclick="openTab(event, 'Hotel')" id="defaultOpen">Hotel</button>
+            <button class="tablinks" data-tab-name="#Tours" onclick="openTab(event, 'Tours')">Tours</button>
+            <button class="tablinks" data-tab-name="#Package" onclick="openTab(event, 'Package')">Package</button>
+        </div>
+            
+        <!-- Tab content -->
+        <div id="Hotel" class="tabcontent">
+            <form class="search-wrap" action="">
+                <label class="search-item" for="search-city">Where?<br>
+                    <input class="search-field" type="text" name="location" placeholder="Choose city" id="search-city">
+                </label>
+                <label class="search-item" for="search-hotel">Which?<br>
+                    <input class="search-field" type="text" name="city" placeholder="Choose hotel" id="search-hotel">
+                </label>
+                <label class="search-item" for="search-checkin">Check-in<br>
+                    <input class="search-field" type="date" name="checkin" id="search-checkin">
+                </label>
+                <label class="search-item" for="search-checkout">Check-out<br>
+                    <input class="search-field" type="date" name="checkout" id="search-checkout">
+                </label>
+                <button class="search-btn">Search</button>
+            </form>
+        </div>
+        <div id="Tours" class="tabcontent">
+            <form class="search-wrap" action="">
+                <label class="search-item" for="search-location">Where?<br>
+                    <input class="search-field" type="text" name="location" placeholder="Choose location" id="search-location">
+                </label>
+                <label class="search-item" for="search-city">Which?<br>
+                    <input class="search-field" type="text" name="city" placeholder="Choose city" id="search-city">
+                </label>
+                <label class="search-item" for="search-start">Start<br>
+                    <input class="search-field" type="date" name="tour-start" id="search-start">
+                </label>
+                <label class="search-item" for="search-end">End<br>
+                    <input class="search-field" type="date" name="tour-end" id="search-end">
+                </label>
+                <button class="search-btn">Search</button>
+            </form>
+        </div>
+        <div id="Package" class="tabcontent">
+            <form class="search-wrap" action="">
+                <label class="search-item" for="search-location">Where?<br>
+                    <input class="search-field" type="text" name="location" placeholder="Choose location" id="search-location">
+                </label>
+                <label class="search-item" for="search-city">Which?<br>
+                    <input class="search-field" type="text" name="city" placeholder="Choose city" id="search-city">
+                </label>
+                <label class="search-item" for="search-checkin">Check-in<br>
+                    <input class="search-field" type="date" name="checkin" id="search-checkin">
+                </label>
+                <label class="search-item" for="search-checkout">Check-out<br>
+                    <input class="search-field" type="date" name="checkout" id="search-checkout">
+                </label>
+                <button class="search-btn">Search</button>
+            </form>
+        </div>
+    </div>
+</header>

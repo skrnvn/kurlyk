@@ -1,0 +1,104 @@
+.nav-menu {
+
+    &__item {
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+    &__link {
+        padding: 20px 25px;
+        color: #ffffff;
+    
+        &:hover {
+            color: #ffc001;
+        }
+    }
+}
+
+.searchform-home {
+    /* Style the tab */
+    .tab {
+        border-left: 25px solid #ffc001;
+        display: inline-block;
+        overflow: hidden;
+        background-color: #ffffff;
+    }
+    
+    /* Style the buttons that are used to open the tab content */
+    .tab button {    
+        font-family: inherit;
+        color: #333333;
+        font-weight: 400;
+        border-right: 1px solid #333333;
+        text-transform: uppercase;
+        float: left;
+        outline: none;
+        cursor: pointer;
+        padding: 15px 25px;
+        transition: 0.3s;
+
+        &:last-child {
+            border: none;
+        }
+    }
+    
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #ffc001;
+        color: #ffffff;
+    }
+    
+    /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #ffc001;
+        color: #ffffff;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {  
+        width: 1080px;
+        position: absolute;  
+        border-left: 25px solid #ffc001;
+        color: #333333;
+        background-color: #fafafa;
+        display: none;
+        text-transform: uppercase;
+        padding: 50px 30px;
+    }
+
+    .search-wrap {
+
+        .search {
+
+            &-item {
+                display: inline-block;
+                width: 24%;
+            }
+        
+
+            &-field {
+                margin: 15px 0;
+                background-color: #ffffff;
+                padding: 10px 15px;
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: 0.21px;
+            }
+
+            &-btn {
+                position: absolute;
+                top: 75px;
+                right: -30px;
+                transform: rotate(90deg);
+                text-transform: uppercase;
+                background-color: #ffc001;
+                color: #fdfdfd;
+                padding: 5px 10px;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: 3.25px;
+            }
+        }
+    }
+}

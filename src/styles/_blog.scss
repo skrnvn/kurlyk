@@ -1,0 +1,112 @@
+.deal {
+    padding-bottom: 300px;
+    position: relative;
+
+    &__subscribe {
+        margin: 0 auto 125px;
+        font-size: 0;
+
+        input[type='email'] {
+            border-radius: 3px 0 0 3px;
+            background-color: #ffffff;
+            padding: 15px 30px;
+            color: #1b2739;
+            font-size: 16px;
+            width: 400px;
+            display: inline-block;
+        }
+
+        button[type='submit'] {
+            border-radius: 0 3px 3px 0;
+            background-color: #1b2739;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 0.7px;
+            padding: 15px;
+            display: inline-block;
+        }
+    }
+
+    &__img {
+        position: absolute;
+        left: calc(50% - 315px);
+        bottom: 100px;
+        z-index: 1;
+    }
+}
+
+.blogpost {
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+
+    .blogpost-item {
+        box-shadow: 0 0 30px rgba(230, 230, 230, 0.25);
+        
+        &__desc {
+            padding: 30px;
+        }
+
+        .blogpost-desc {
+
+            .blogpost-info {
+                display: flex;
+                justify-content: space-between;
+                color: #b9bbba;
+                font-size: 12px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+
+            &__title {
+                color: #333333;
+                font-size: 20px;
+                font-weight: 400;
+                padding: 25px 0;
+                line-height: 36px;
+            }
+
+            &__text {
+                color: #616161;
+                font-size: 15px;
+                font-weight: 300;
+                line-height: 28px;
+                padding-bottom: 30px;
+            }
+
+            &__sidebar {
+                padding-bottom: 35px;
+            }
+
+            .blogpost-sidebar {
+
+                &__item {
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                    background-color: #f9f7f7;
+                    background-position: center;
+                    background-repeat: no-repeat;
+
+                    &--comment {
+                        background-image: url(../img/icons/comment-icon-yellow.png);
+                        border-radius: 1px 10px 25px;
+                    }
+
+                    &--like {
+                        background-image: url(../img/icons/like-icon-green.png);
+                        border-radius: 5px 5px 16px 16px;
+                    }
+
+                    &--share {
+                        background-image: url(../img/icons/share-icon-black.png);
+                        border-radius: 10px 1px 10px 25px;
+                    }
+                }
+            }
+
+        }
+    }
+}
